@@ -20,6 +20,8 @@ public class activity1 {
         WebElement searchInputElement = driver.findElement(searchInputLocator);
 
         //perform the action
+        //there is some issue here. You have to type and then print those thing.
+        //Instead of click use sendKeys.
 
         searchInputElement.click();
 
