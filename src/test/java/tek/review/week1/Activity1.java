@@ -34,7 +34,7 @@ public class Activity1 {
 
         By emailAddress = By.id("emailInput");
         WebElement emailAddressElement = driver.findElement(emailAddress);
-        emailAddressElement.sendKeys("Mehwands@gmail.com");
+        emailAddressElement.sendKeys("Mehwands1@gmail.com");
 
         By password = By.id("passwordInput");
         WebElement passwordElement = driver.findElement(password);
